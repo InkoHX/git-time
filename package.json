@@ -1,27 +1,27 @@
 {
-  "name": "typescript-template-yarn",
+  "name": "@inkohx/git-time",
   "version": "0.0.1",
-  "description": "TypeScript template for Yarn.",
+  "description": "@inkohx/git-time is a JavaScript module that converts a file's created date, modified date, etc. to a Date object using the \"git log\" command.",
   "main": "dist/index.js",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/InkoHX/git-time#readme",
   "author": {
     "name": "InkoHX",
     "email": "inkohx@gmail.com",
-    "url": "https://about.inkohx.me"
+    "url": "https://inkohx.me"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/InkoHX/***.git"
+    "url": "https://github.com/InkoHX/git-time.git"
   },
   "bugs": {
-    "url": "https://github.com/InkoHX/***/issues"
+    "url": "https://github.com/InkoHX/git-time/issues"
   },
   "funding": {
     "type": "patreon",
     "url": "https://www.patreon.com/inkohx"
   },
-  "keywords": [],
+  "keywords": ["git"],
   "scripts": {
     "lint": "eslint --ext .ts --ignore-path .gitignore ./src",
     "lint:fix": "eslint --ext .ts --ignore-path .gitignore ./src --fix",
